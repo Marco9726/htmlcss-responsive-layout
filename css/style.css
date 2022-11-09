@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    line-height: 1.5rem;
+    font-size: 18px
 }
 .container{
     width: 85vw;
@@ -18,7 +20,30 @@
 }
 
 .card{
+    text-align: center;
+}
+
+.card,.col{
     width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 9vh 0;
+}
+section:nth-last-of-type(odd){
+    background-color: rgb(149,147,230);
+}
+
+h5{
+    font-size: 1.75rem;
+}
+
+h4{
+    font-size: 2rem;
 }
 
 /* HEADER  */
@@ -30,7 +55,7 @@ header{
 }
 
 
-header img{
+.logo{
     height: 8vh;
 }
 
@@ -54,8 +79,41 @@ header .col-left,header .col-right{
     height: 60vh;
     border-radius: 2rem;
     margin-bottom: 2rem;
+    padding-top: 3rem;
 }
 
 .demo .card:first-child{
-    height: 120vh;
+    height: 100vh;
+}
+
+/* SECONDA SEZIONE PLANNING  */
+.planning .col-left{
+    color: white;
+}
+
+.planning h4{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.planning .card{
+    background-color: white;
+    border-radius: 4rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.planning .card *{
+    margin-bottom: 2rem;
+}
+
+em{
+    font-size: 1.2rem;
+}
+
+.planning i{
+    font-size: 1.5rem;
+    border-radius: 100%;
+    background-color: rgb(149,147,230);
+    padding: 1rem 1.25rem;
 }
