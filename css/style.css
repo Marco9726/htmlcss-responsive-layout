@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     line-height: 1.5rem;
-    font-size: 20px
+    font-size: 22px
 }
 .container{
     width: 85vw;
@@ -36,7 +36,7 @@ section{
 }
 
 h5{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 h4,h3{
@@ -49,6 +49,10 @@ h4,h3{
 
 .text-violet{
     color: rgb(149,147,230);
+}
+
+.text-white{
+    color: white;
 }
 
 /* HEADER  */
@@ -66,7 +70,6 @@ header{
 
 header i{
     font-size: 2rem;
-    color: white;
 }
 
 header .col-left,header .col-right{
@@ -92,9 +95,6 @@ header .col-left,header .col-right{
 }
 
 /* SECONDA SEZIONE PLANNING  */
-.planning .col-left{
-    color: white;
-}
 
 .planning h4{
     margin-top: 3rem;
@@ -124,31 +124,38 @@ em{
 
 /* TERZA SEZIONE TESTIMONIALS  */
 
-.testimonials div{
+.testimonials{
     text-align: center;
-    padding: 1rem;
 }
 
-.testimonials .intro *{
+.testimonials .container *,.testimonials .card *{
     margin-bottom: 2rem;
 }
 
 .testimonials .card{
-    padding: 2rem;
+    padding: 1rem;
+    border-radius: 4rem;
 }
 .testimonials .foto-circle{
     border-radius: 100%;
-    height: 30vh;
-    width: 30vh;
+    height: 40vh;
+    width: 40vh;
     margin: 0 auto;
     background-size: cover;
     background-position: center;
     margin-bottom: 1rem;
 }
 
-.intro .card p::before{
+.testimonials .card p::before{
     font: var(--fa-font-solid);
     content: "\f10d";
+    font-size: 1.2rem;
+}
+
+.testimonials .card p::after{
+    font: var(--fa-font-solid);
+    content: "\f10e";
+    font-size: 1.2rem;
 }
 
 #nat{
