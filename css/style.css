@@ -1,0 +1,36 @@
+/* REGOLE GENERALI  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER  */
+header{
+    height: 12vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+header .row{
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: 8vh;
+}
+
+header i{
+    font-size: 2rem;
+    color: white;
+}
+
+header .col-left,header .col-right{
+    display: flex;
+    align-items: center;
+}
