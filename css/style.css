@@ -5,6 +5,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 100%;
+}
 
 /* HEADER  */
 header{
@@ -14,12 +29,6 @@ header{
     align-items: center;
 }
 
-header .row{
-    width: 85vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
 
 header img{
     height: 8vh;
@@ -33,4 +42,20 @@ header i{
 header .col-left,header .col-right{
     display: flex;
     align-items: center;
+}
+
+/* PRIMA SEZIONE DEMO */
+.demo{
+    padding-top: 9vh;
+    padding-bottom: 12vh;
+}
+.demo .card{
+    background-color: lightblue;
+    height: 60vh;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.demo .card:first-child{
+    height: 120vh;
 }
