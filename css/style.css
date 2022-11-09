@@ -41,6 +41,11 @@ h5{
 
 h4,h3{
     font-size: 2rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5rem;
 }
 
 .bg-violet{
@@ -85,14 +90,15 @@ header .col-left,header .col-right{
 .demo .card{
     background-color: lightblue;
     height: 60vh;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
     padding-top: 3rem;
 }
 
 .demo .card:first-child{
     height: 100vh;
 }
+
 
 /* SECONDA SEZIONE PLANNING  */
 
@@ -103,7 +109,7 @@ header .col-left,header .col-right{
 
 .planning .card{
     background-color: white;
-    border-radius: 4rem;
+    border-radius: 3rem;
     padding: 1.5rem;
     margin-top: 2rem;
 }
@@ -134,7 +140,7 @@ em{
 
 .testimonials .card{
     padding: 1rem;
-    border-radius: 4rem;
+    border-radius: 3rem;
 }
 .testimonials .foto-circle{
     border-radius: 100%;
@@ -168,4 +174,27 @@ em{
 
 #bob{
     background-image: url('../img/testimonial3.jpg');
+}
+/* QUARTA SEZIONE BENEFITS  */
+.benefits .card{
+    background-color: white;
+    text-align: left;
+    padding: 2.5rem 1.5rem 0.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.benefits .card p{
+    color: grey;
+}
+
+.benefits .card *{
+    margin-bottom: 1.5rem;
+}
+
+.benefits .card span{
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
 }
