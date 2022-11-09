@@ -36,7 +36,7 @@ section{
 }
 
 h5{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 h4,h3{
@@ -97,15 +97,20 @@ header .col-left,header .col-right{
     padding-bottom: 12vh;
 }
 .demo .card{
-    background-color: lightblue;
+    background-color: rgb(181,221,255);
     height: 60vh;
     border-radius: 1.5rem;
     margin-bottom: 1.5rem;
-    padding-top: 3rem;
+    padding: 2.5rem 2rem;
 }
 
 .demo .card:first-child{
     height: 100vh;
+    text-align: left;
+}
+
+.demo .card h5,.demo i{
+    color: rgb(0,132,253);
 }
 
 
@@ -244,6 +249,10 @@ em{
 /* SESTA SEZIONE GET-STARTED  */
 .get-started .container{
     text-align: center;
+}
+
+.get-started .container div:first-child{
+    letter-spacing: 0.1rem;
 }
 
 .get-started .container *{
