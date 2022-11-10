@@ -354,6 +354,18 @@ footer .container p:first-child{
     
     #apple{
         color: white;
-    } */
+    } 
+
+    /* SECONDA SECTION PLANNING  */
+
+    .planning .container h4{
+        margin-top: 6rem;
+        font-size: 4em;
+    }
+
+    .planning .card{
+        border-radius: 3rem;
+        padding: 1.5rem 1.5rem 0;
+    }
 
 }
