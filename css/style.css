@@ -97,6 +97,10 @@ header .col-left,header .col-right{
 .demo{
     padding-bottom: 12vh;
 }
+.demo .card:first-child{
+    text-align: left;
+    padding-bottom: 0;
+}
 .demo .card{
     background-color: rgb(181,221,255);
     border-radius: 1.5rem;
@@ -107,10 +111,6 @@ header .col-left,header .col-right{
     justify-content: space-between;
 }
 
-.demo .card:first-child{
-    text-align: left;
-    padding-bottom: 0;
-}
 .demo .card h5,.demo .card i{
     color: rgb(0,132,253);
 }
@@ -281,7 +281,6 @@ em{
 }
 
 /* FOOTER  */
-
 footer{
     background-color: rgb(51,51,51);
 }
@@ -292,4 +291,69 @@ footer .container{
 
 footer .container p:first-child{
     margin-bottom: 3rem;
+}
+
+/* ******** RESPONSIVE *********  */
+
+/* Tablet min 768px **** */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* regole generali  */
+    *{
+        font-size: 18px;
+    }
+
+    .container{
+        width: 92vw;
+    }
+    /* HEADER  */
+
+    .logo{
+        height: 2rem;
+    }
+
+    header i{
+        font-size: 1.5rem;
+    }
+    /* PRIMA SECTION DEMO  */
+    .demo{
+        padding-top: 2rem;
+    }
+    .demo .card:first-child{
+        width: calc(66.66666% - 0.5rem);
+        display: flex;
+    }
+
+    .demo .card:first-child img{
+        height: 60%;
+        width: 60%;
+    }
+
+    .demo .card{
+        background-color: rgb(181,221,255);
+        width: calc(33.33333% - 1rem);
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 2rem 1.25rem;
+        display: inline-block;
+    }
+    
+    .demo .card a{
+        max-width: 50%;
+        border-radius: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    .demo .card i:not(#apple){
+        font-size: 4.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .demo .card p{
+        margin-top: 1.5rem;
+    }
+    
+    #apple{
+        color: white;
+    } */
+
 }
