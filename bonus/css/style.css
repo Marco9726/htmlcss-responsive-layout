@@ -1,0 +1,724 @@
+/* REGOLE GENERALI  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+    font-size: 22px;
+    font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card{
+    text-align: center;
+}
+
+.card,.col{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 9vh 0;
+}
+
+h5{
+    font-size: 1.4rem;
+}
+
+h4,h3{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h1{
+    color: rgb(253, 192, 95);
+    font-size: 2.75rem;
+}
+
+.bg-violet{
+    background-color: rgb(149,147,230);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.text-violet{
+    color: rgb(149,147,230);
+}
+
+.text-white{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+/* HEADER  */
+header{
+    height: 12vh;
+    background-color: rgb(0,132,253);
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-left: 1rem;
+}
+
+header nav ul li:last-child{
+    color: black;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.logo{
+    height: 8vh;
+}
+
+header i{
+    font-size: 2rem;
+}
+header .col-left,header .col-right{
+    display: flex;
+    align-items: center;
+}
+
+/* PRIMA SEZIONE#DEMO */
+#demo{
+    padding-bottom: 12vh;
+}
+#demo .card:first-child{
+    text-align: left;
+    padding-bottom: 0;
+}
+
+#demo .card .col-left *{
+    margin-bottom: 1.5rem;
+}
+
+#demo .card{
+    background-color: rgb(181,221,255);
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#demo img{
+   height: 100%;
+}
+
+#demo .card h5,#demo .card i{
+    color: rgb(0,132,253);
+}
+
+#demo .card a{
+    background-color: rgb(0,132,253);
+    max-width: 50vw;
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem;
+    letter-spacing: 0.2rem;
+    margin: 2rem 0;
+}
+
+#demo .card i:not(#apple){
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+#demo .card p{
+    margin-top: 2rem;
+}
+
+#apple{
+    color: white;
+}
+
+
+/* SECONDA SEZIONE#PLANNING  */
+
+#planning h4{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#planning .card{
+    border-radius: 3rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+#planning .card *{
+    margin-bottom: 2rem;
+}
+
+em{
+    font-size: 1.2rem;
+}
+
+#planning i{
+    font-size: 1.5rem;
+    border-radius: 100%;
+    padding: 1rem 1.25rem;
+}
+
+/* TERZA SEZIONE TESTIMONIALS  */
+#testimonials .container *,#testimonials .card *{
+    margin-bottom: 2rem;
+}
+
+#testimonials .card{
+    padding: 1rem;
+    border-radius: 3rem;    
+}
+.foto-circle{
+    border-radius: 100%;
+    height: 35vh;
+    width: 35vh;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+}
+
+#testimonials .card p::before{
+    font: var(--fa-font-solid);
+    content: "\f10d";
+    font-size: 1.2rem;
+}
+
+#testimonials .card p::after{
+    font: var(--fa-font-solid);
+    content: "\f10e";
+    font-size: 1.2rem;
+}
+
+#nat{
+    background-image: url('../img/testimonial1.jpg');
+}
+#celia{
+    background-image: url('../img/testimonial2.jpg');
+}
+#bob{
+    background-image: url('../img/testimonial3.jpg');
+}
+/* QUARTA SEZIONE BENEFITS  */
+#benefits h3{
+    margin-bottom: 2rem;
+}
+#benefits .card{
+    text-align: left;
+    padding: 2.5rem 1.5rem 0.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+#benefits .card p{
+    color: grey;
+}
+
+#benefits .card *{
+    margin-bottom: 1.5rem;
+}
+
+#benefits .card span{
+    display: inline-block;
+    padding: 0.5rem 3rem;
+    border-radius: 2rem;
+}
+
+/* QUINTA SEZIONE ABOUT  */
+
+#about .col-left *{
+    margin-bottom: 2rem;
+}
+
+#last-foto{
+    background-image: url('../img/about.jpg');
+    margin: 0;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#last-foto span{
+    position: absolute;
+    right: 0;
+}
+
+#last-foto span i{
+    font-size: 3.5rem;
+}
+
+#about .col-right .button{
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem;
+    margin: 1.5rem 0;
+    display: inline-block;
+}
+
+#about .col-right .button i{
+    margin-right: 0.5rem;
+}
+
+/* SESTA SEZIONE GET-STARTED  */
+#get-started .container div:first-child{
+    letter-spacing: 0.1rem;
+}
+
+#get-started .container *{
+    margin-bottom: 1.5rem;
+}
+
+#get-started span{
+    letter-spacing: 0.2rem;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+/* FOOTER  */
+footer{
+    background-color: rgb(51,51,51);
+}
+
+footer .container{
+    padding: 2rem 0;
+}
+
+footer .container p:first-child{
+    margin-bottom: 3rem;
+}
+
+/* ******** RESPONSIVE *********  */
+
+/* Tablet min 768px **** */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* regole generali  */
+    *{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 2.25rem;
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+    .container{
+        width: 92vw;
+    }
+    /* HEADER  */
+
+    .logo{
+        height: 2rem;
+    }
+
+    header i{
+        font-size: 1.5rem;
+    }
+    /* PRIMA SEZIONE#DEMO  */
+    #demo{
+        padding-top: 2rem;
+    }
+    #demo .card:first-child{
+        width: calc(66.66666% - 0.5rem);
+    }
+    #demo .card .col-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    #demo .card:first-child img{
+        height: 60%;
+        width: 60%;
+    }
+
+    #demo .card{
+        width: calc(33.33333% - 1rem);
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 2rem 1.25rem;
+        display: inline-block;
+    }
+    
+    #demo .card a{
+        max-width: 50%;
+        border-radius: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    #demo .card i:not(#apple){
+        font-size: 4.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    #demo .card p{
+        margin-top: 1.5rem;
+    }
+    
+    /* SECONDA SEZIONE#PLANNING  */
+
+    #planning .container h4{
+        margin-top: 6rem;
+        font-size: 4em;
+    }
+
+    #planning .card{
+        border-radius: 3rem;
+        padding: 1.5rem 1.5rem 0;
+    }
+        /* TERZA SEZIONE TESTIMONIALS  */
+    #testimonials .container *{
+        margin-bottom: 2rem;
+    }
+
+    #testimonials .card *{
+        margin-bottom: 1rem;
+    }
+
+    #testimonials .card{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .foto-circle{
+        height: 10rem;
+        width: 10rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+     /* QUARTA SEZIONE BENEFITS  */
+    #benefits .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #benefits h3{
+        width: 100%;
+    }
+
+    #benefits .card h2{
+        margin-bottom: 2rem;
+    }
+
+    #benefits .card{
+        width: calc(50% - 1rem);
+        text-align: left;
+        padding: 2.5rem 1.5rem 0.5rem;
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+        /* QUINTA SEZIONE ABOUT  */
+
+    #about .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #about .container .col-left{
+        width: 55%;
+    }
+    #about .container .col-left h2{
+        margin-bottom: 4.5rem;
+    }
+    #about .container .col-left p{
+        line-height: 2rem;
+    }
+
+    #about .container .col-right{
+        width: 30%;
+    }
+
+    #about .container .col-right h4{
+        font-size: 1.5rem;
+    }
+    
+    #last-foto{
+        width: 12rem;
+        height: 12rem;
+    }
+
+    /* SESTA SEZIONE GET STARTED  */
+    #get-started .container{
+        padding: 3.5rem 3.5 0;
+    }
+
+    #get-started .container h4{
+        font-size: 2.5rem;
+    }
+    
+    #get-started h1{
+        font-size: 5rem;
+        margin-top: 4rem;
+    }
+
+    #get-started p{
+        margin: 0 3rem;
+        margin-top: 4rem;
+    }
+    
+    /* FOOTER  */
+    footer .container{
+        width: 60vw;
+    }
+
+}
+
+/* desktop min 992px***  */
+@media screen and (min-width: 992px) {
+    /* regole generali  */
+    *{
+        font-size: 10px;
+    }
+
+    .container{
+        width: 62vw;
+    }
+    /* HEADER  */
+    header{
+        height: 4rem;
+    }
+    header nav{
+        display: block;
+    }
+
+    header .hamburger{
+        display: none;
+    }
+    .logo{
+        height: 2rem;
+    }
+
+    /* PRIMA SEZIONE#DEMO  */
+    #demo{
+        padding-top: 3rem;
+    }
+
+    #demo .card:first-child{
+        width: calc(66.66666% - 0.5rem);
+        display: flex;
+        flex-direction: row;
+    }
+
+    #demo .card .col-left,#demo .card .col-right{
+        width: 48%;
+    }
+
+    #demo .card img{
+        object-fit: contain;
+        height: 85%;
+    }
+    #demo .card .col-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    #demo .card{
+        width: calc(33.33333% - 1rem);
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 2rem 1.25rem;
+        display: inline-block;
+    }
+    /* SECONDA SEZIONE#PLANNING  */
+    #planning .container{
+        width: 45vw;
+    }
+    #planning .row .col{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #planning .row .col-left{
+        justify-content: space-between;
+    }
+
+    #planning .row .col-right{
+        justify-content: flex-end;
+    }
+    #planning .card{
+        padding-bottom: 0.5rem;
+    }
+    
+    #planning .card *{
+        margin-bottom: 1rem;
+    }
+
+    #planning .col-right .card img{
+        width: 75%;
+    }
+
+    #planning .col-right h5{
+        font-size: 1.25rem;
+    }
+    
+    #planning .col-right i{
+        font-size: 1rem;
+        padding: 0.5rem 0.65rem;
+    }
+
+    /* TERZA SEZIONE TESTIMONIALS */
+    #testimonials h3{
+        font-size: 3rem;
+    }
+
+    #testimonials .card *{
+        margin-bottom: 1rem;
+    }
+
+    #testimonials .card{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    #testimonials .foto-circle{
+        height: 10rem;
+        width: 10rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-right: 2rem;
+    }
+
+        /* QUARTA SEZIONE BENEFITS  */
+    #benefits .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #benefits h2{
+        font-size: 3rem;
+    }
+
+    #benefits h3{
+        width: 100%;
+    }
+
+    #benefits .card{
+        width: calc(33.33333% - 1rem);
+    }
+    
+    /* QUINTA SEZIONE ABOUT  */
+    #about .container{
+    display: flex;
+    justify-content: space-around;
+    }
+
+    #about .container .col-left{
+        width: 55%;
+    }
+    #about .container .col-left h2{
+        margin-bottom: 4.5rem;
+        font-size: 3rem;
+    }
+    #about .container .col-left p{
+        line-height: 2rem;
+    }
+
+    #about .container .col-right{
+        width: 20%;
+    }
+
+    #about .container .col-right h4{
+        font-size: 1.5rem;
+    }
+    
+    #last-foto{
+        width: 12rem;
+        height: 12rem;
+    }
+
+        /* SESTA SEZIONE GET STARTED  */
+    #get-started{
+        padding: 3rem 0;
+    }
+    #get-started .container{ 
+        width: 35vw;
+    }
+
+    #get-started .container h4{
+        font-size: 2.5rem;
+    }
+    
+    #get-started h1{
+        font-size: 5rem;
+        margin-top: 4rem;
+    }
+
+    #get-started p{
+        margin: 0 3rem;
+        margin-top: 4rem;
+    }
+
+    /* FOOTER  */
+    footer .container{
+        width: 25vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: calc(1200px / 100 * 62);
+    }
+
+    #planning .container{
+        max-width: calc(1200px / 100 * 45);
+    }
+
+    #get-started .container{
+        max-width: calc(1200px / 35 * 35);
+    }
+
+    footer .container{
+        max-width: calc(1200px / 100 * 25);
+    }
+}
