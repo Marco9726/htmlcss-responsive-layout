@@ -399,9 +399,11 @@ footer .container p:first-child{
     flex-wrap: wrap;
     justify-content: space-between;
     }
+    
     .benefits h3{
         width: 100%;
     }
+
     .benefits .card h2{
         margin-bottom: 2rem;
     }
@@ -412,7 +414,6 @@ footer .container p:first-child{
         padding: 2.5rem 1.5rem 0.5rem;
         border-radius: 1.5rem;
         margin-bottom: 1.5rem;
-    
     }
     
 }
