@@ -428,9 +428,9 @@ footer .container p:first-child{
     }
      /* QUARTA SEZIONE BENEFITS  */
     .benefits .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .benefits h3{
@@ -623,4 +623,23 @@ footer .container p:first-child{
             margin-right: 2rem;
         }
 
+         /* QUARTA SEZIONE BENEFITS  */
+        .benefits .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .benefits h2{
+            font-size: 3rem;
+        }
+
+        .benefits h3{
+            width: 100%;
+        }
+
+        .benefits .card{
+            width: calc(33.33333% - 1rem);
+        }
+        
     }
