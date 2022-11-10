@@ -505,170 +505,192 @@ footer .container p:first-child{
 
 }
 
-    /* desktop min 992px***  */
-    @media screen and (min-width: 992px) and (max-width: 1199px) {
-        /* regole generali  */
-        *{
-            font-size: 10px;
-        }
+/* desktop min 992px***  */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* regole generali  */
+    *{
+        font-size: 10px;
+    }
 
-        .container{
-            width: 62vw;
-        }
-        /* HEADER  */
-        header{
-            height: 4rem;
-        }
-        header nav{
-            display: block;
-        }
+    .container{
+        width: 62vw;
+    }
+    /* HEADER  */
+    header{
+        height: 4rem;
+    }
+    header nav{
+        display: block;
+    }
 
-        header .hamburger{
-            display: none;
-        }
-        .logo{
-            height: 2rem;
-        }
+    header .hamburger{
+        display: none;
+    }
+    .logo{
+        height: 2rem;
+    }
 
-        /* PRIMA SEZIONE DEMO  */
-        .demo{
-            padding-top: 3rem;
-        }
+    /* PRIMA SEZIONE DEMO  */
+    .demo{
+        padding-top: 3rem;
+    }
 
-        .demo .card:first-child{
-            width: calc(66.66666% - 0.5rem);
-            display: flex;
-            flex-direction: row;
-        }
-
-        .demo .card .col-left,.demo .card .col-right{
-            width: 48%;
-        }
-
-        .demo .card img{
-            object-fit: contain;
-            height: 85%;
-        }
-        .demo .card .col-right{
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-        }
-        .demo .card{
-            width: calc(33.33333% - 1rem);
-            border-radius: 1.5rem;
-            margin-bottom: 1.5rem;
-            padding: 2rem 1.25rem;
-            display: inline-block;
-        }
-        /* SECONDA SEZIONE PLANNING  */
-        .planning .container{
-            width: 45vw;
-        }
-        .planning .row .col{
-            width: 48%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .planning .row .col-left{
-            justify-content: space-between;
-        }
-
-        .planning .row .col-right{
-            justify-content: flex-end;
-        }
-        .planning .card{
-            padding-bottom: 0.5rem;
-        }
-        
-        .planning .card *{
-            margin-bottom: 1rem;
-        }
-
-        .planning .col-right .card img{
-            width: 75%;
-        }
-
-        .planning .col-right h5{
-            font-size: 1.25rem;
-        }
-        
-        .planning .col-right i{
-            font-size: 1rem;
-            padding: 0.5rem 0.65rem;
-        }
-
-        /* TERZA SEZIONE TESTIMONIALS */
-        .testimonials h3{
-            font-size: 3rem;
-        }
-    
-        .testimonials .card *{
-            margin-bottom: 1rem;
-        }
-    
-        .testimonials .card{
-            display: flex;
-            align-items: center;
-            text-align: left;
-            padding-bottom: 0;
-        }
-    
-        .testimonials .foto-circle{
-            height: 10rem;
-            width: 10rem;
-            margin-top: 1rem;
-            margin-right: 1rem;
-            margin-right: 2rem;
-        }
-
-         /* QUARTA SEZIONE BENEFITS  */
-        .benefits .container{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .benefits h2{
-            font-size: 3rem;
-        }
-
-        .benefits h3{
-            width: 100%;
-        }
-
-        .benefits .card{
-            width: calc(33.33333% - 1rem);
-        }
-        
-        /* QUINTA SEZIONE ABOUT  */
-        .about .container{
+    .demo .card:first-child{
+        width: calc(66.66666% - 0.5rem);
         display: flex;
-        justify-content: space-around;
-        }
+        flex-direction: row;
+    }
 
-        .about .container .col-left{
-            width: 55%;
-        }
-        .about .container .col-left h2{
-            margin-bottom: 4.5rem;
-            font-size: 3rem;
-        }
-        .about .container .col-left p{
-            line-height: 2rem;
-        }
+    .demo .card .col-left,.demo .card .col-right{
+        width: 48%;
+    }
 
-        .about .container .col-right{
-            width: 20%;
-        }
+    .demo .card img{
+        object-fit: contain;
+        height: 85%;
+    }
+    .demo .card .col-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .demo .card{
+        width: calc(33.33333% - 1rem);
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+        padding: 2rem 1.25rem;
+        display: inline-block;
+    }
+    /* SECONDA SEZIONE PLANNING  */
+    .planning .container{
+        width: 45vw;
+    }
+    .planning .row .col{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+    }
 
-        .about .container .col-right h4{
-            font-size: 1.5rem;
-        }
-        
-        #last-foto{
-            width: 12rem;
-            height: 12rem;
-        }
+    .planning .row .col-left{
+        justify-content: space-between;
+    }
+
+    .planning .row .col-right{
+        justify-content: flex-end;
+    }
+    .planning .card{
+        padding-bottom: 0.5rem;
+    }
+    
+    .planning .card *{
+        margin-bottom: 1rem;
+    }
+
+    .planning .col-right .card img{
+        width: 75%;
+    }
+
+    .planning .col-right h5{
+        font-size: 1.25rem;
+    }
+    
+    .planning .col-right i{
+        font-size: 1rem;
+        padding: 0.5rem 0.65rem;
+    }
+
+    /* TERZA SEZIONE TESTIMONIALS */
+    .testimonials h3{
+        font-size: 3rem;
+    }
+
+    .testimonials .card *{
+        margin-bottom: 1rem;
+    }
+
+    .testimonials .card{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .testimonials .foto-circle{
+        height: 10rem;
+        width: 10rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-right: 2rem;
+    }
+
+        /* QUARTA SEZIONE BENEFITS  */
+    .benefits .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits h2{
+        font-size: 3rem;
+    }
+
+    .benefits h3{
+        width: 100%;
+    }
+
+    .benefits .card{
+        width: calc(33.33333% - 1rem);
+    }
+    
+    /* QUINTA SEZIONE ABOUT  */
+    .about .container{
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .about .container .col-left{
+        width: 55%;
+    }
+    .about .container .col-left h2{
+        margin-bottom: 4.5rem;
+        font-size: 3rem;
+    }
+    .about .container .col-left p{
+        line-height: 2rem;
+    }
+
+    .about .container .col-right{
+        width: 20%;
+    }
+
+    .about .container .col-right h4{
+        font-size: 1.5rem;
+    }
+    
+    #last-foto{
+        width: 12rem;
+        height: 12rem;
+    }
+
+        /* SESTA SEZIONE GET STARTED  */
+    .get-started{
+        padding: 3rem 0;
+    }
+    .get-started .container{ 
+        width: 35vw;
+    }
+
+    .get-started .container h4{
+        font-size: 2.5rem;
+    }
+    
+    .get-started h1{
+        font-size: 5rem;
+        margin-top: 4rem;
+    }
+
+    .get-started p{
+        margin: 0 3rem;
+        margin-top: 4rem;
+    }
 }
