@@ -302,6 +302,10 @@ footer .container p:first-child{
         font-size: 18px;
     }
 
+    h3{
+        font-size: 2.25rem;
+    }
+
     .container{
         width: 92vw;
     }
@@ -366,6 +370,28 @@ footer .container p:first-child{
     .planning .card{
         border-radius: 3rem;
         padding: 1.5rem 1.5rem 0;
+    }
+        /* TERZA SEZIONE TESTIMONIALS  */
+    .testimonials .container *{
+        margin-bottom: 2rem;
+    }
+
+    .testimonials .card *{
+        margin-bottom: 1rem;
+    }
+
+    .testimonials .card{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .foto-circle{
+        height: 10rem;
+        width: 10rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
     }
 
 }
