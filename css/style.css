@@ -81,6 +81,26 @@ header{
     align-items: center;
 }
 
+header nav{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-left: 1rem;
+}
+
+header nav ul li:last-child{
+    color: black;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+}
+
 .logo{
     height: 8vh;
 }
@@ -471,3 +491,29 @@ footer .container p:first-child{
     }
 
 }
+
+    /* desktop min 992px***  */
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+        /* regole generali  */
+        *{
+            font-size: 12px;
+        }
+
+        .container{
+            width: 60vw;
+        }
+        /* HEADER  */
+        header{
+            height: 4rem;
+        }
+        header nav{
+            display: block;
+        }
+
+        header .hamburger{
+            display: none;
+        }
+        .logo{
+            height: 2rem;
+        }
+    }
