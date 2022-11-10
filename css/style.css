@@ -561,5 +561,41 @@ footer .container p:first-child{
             padding: 2rem 1.25rem;
             display: inline-block;
         }
+        /* SECONDA SEZIONE PLANNING  */
+        .planning .container{
+            width: 45vw;
+        }
+        .planning .row .col{
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+        }
 
+        .planning .row .col-left{
+            justify-content: space-between;
+        }
+
+        .planning .row .col-right{
+            justify-content: flex-end;
+        }
+        .planning .card{
+            padding-bottom: 0.5rem;
+        }
+        
+        .planning .card *{
+            margin-bottom: 1rem;
+        }
+
+        .planning .col-right .card img{
+            width: 75%;
+        }
+
+        .planning .col-right h5{
+            font-size: 1.25rem;
+        }
+        
+        .planning .col-right i{
+            font-size: 1rem;
+            padding: 0.5rem 0.65rem;
+        }
     }
