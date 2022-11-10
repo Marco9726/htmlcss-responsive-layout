@@ -693,4 +693,9 @@ footer .container p:first-child{
         margin: 0 3rem;
         margin-top: 4rem;
     }
+
+    /* FOOTER  */
+    footer .container{
+        width: 25vw;
+    }
 }
