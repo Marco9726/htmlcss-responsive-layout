@@ -506,7 +506,7 @@ footer .container p:first-child{
 }
 
 /* desktop min 992px***  */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) {
     /* regole generali  */
     *{
         font-size: 10px;
@@ -697,5 +697,23 @@ footer .container p:first-child{
     /* FOOTER  */
     footer .container{
         width: 25vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: calc(1200px / 100 * 62);
+    }
+
+    .planning .container{
+        max-width: calc(1200px / 100 * 45);
+    }
+
+    .get-started .container{
+        max-width: calc(1200px / 35 * 35);
+    }
+
+    footer .container{
+        max-width: calc(1200px / 100 * 25);
     }
 }
