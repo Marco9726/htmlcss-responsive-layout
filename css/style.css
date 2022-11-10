@@ -446,5 +446,24 @@ footer .container p:first-child{
         height: 12rem;
     }
 
+    /* SESTA SEZIONE GET STARTED  */
+    .get-started .container{
+        padding: 3.5rem 3.5 0;
+    }
+
+    .get-started .container h4{
+        font-size: 2.5rem;
+    }
     
+    .get-started h1{
+        font-size: 5rem;
+        margin-top: 4rem;
+    }
+
+    .get-started p{
+        margin: 0 3rem;
+        margin-top: 4rem;
+    }
+    
+
 }
