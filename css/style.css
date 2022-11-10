@@ -70,6 +70,9 @@ h1{
     color: white;
 }
 
+.text-center{
+    text-align: center;
+}
 /* HEADER  */
 header{
     height: 12vh;
@@ -78,7 +81,6 @@ header{
     align-items: center;
 }
 
-
 .logo{
     height: 8vh;
 }
@@ -86,7 +88,6 @@ header{
 header i{
     font-size: 2rem;
 }
-
 header .col-left,header .col-right{
     display: flex;
     align-items: center;
@@ -94,7 +95,6 @@ header .col-left,header .col-right{
 
 /* PRIMA SEZIONE DEMO */
 .demo{
-    padding-top: 9vh;
     padding-bottom: 12vh;
 }
 .demo .card{
@@ -120,7 +120,6 @@ header .col-left,header .col-right{
     max-width: 50vw;
     border-radius: 1rem;
     padding: 0.25rem 0.75rem;
-    text-align: center;
     letter-spacing: 0.2rem;
     margin: 2rem 0;
 }
@@ -167,11 +166,6 @@ em{
 }
 
 /* TERZA SEZIONE TESTIMONIALS  */
-
-.testimonials{
-    text-align: center;
-}
-
 .testimonials .container *,.testimonials .card *{
     margin-bottom: 2rem;
 }
@@ -213,7 +207,6 @@ em{
 }
 /* QUARTA SEZIONE BENEFITS  */
 .benefits h3{
-    text-align: center;
     margin-bottom: 2rem;
 }
 .benefits .card{
@@ -272,10 +265,6 @@ em{
 }
 
 /* SESTA SEZIONE GET-STARTED  */
-.get-started .container{
-    text-align: center;
-}
-
 .get-started .container div:first-child{
     letter-spacing: 0.1rem;
 }
@@ -295,7 +284,6 @@ em{
 
 footer{
     background-color: rgb(51,51,51);
-    text-align: center;
 }
 
 footer .container{
