@@ -642,4 +642,33 @@ footer .container p:first-child{
             width: calc(33.33333% - 1rem);
         }
         
-    }
+        /* QUINTA SEZIONE ABOUT  */
+        .about .container{
+        display: flex;
+        justify-content: space-around;
+        }
+
+        .about .container .col-left{
+            width: 55%;
+        }
+        .about .container .col-left h2{
+            margin-bottom: 4.5rem;
+            font-size: 3rem;
+        }
+        .about .container .col-left p{
+            line-height: 2rem;
+        }
+
+        .about .container .col-right{
+            width: 20%;
+        }
+
+        .about .container .col-right h4{
+            font-size: 1.5rem;
+        }
+        
+        #last-foto{
+            width: 12rem;
+            height: 12rem;
+        }
+}
