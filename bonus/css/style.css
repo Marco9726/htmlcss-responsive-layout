@@ -118,7 +118,7 @@ header .col-left,header .col-right{
     align-items: center;
 }
 
-header .hamburger:hover .dropdown-menu{
+header .hamburger i:hover + .dropdown-menu{
     opacity: 1;
 }
 
